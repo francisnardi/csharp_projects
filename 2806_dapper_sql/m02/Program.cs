@@ -16,8 +16,8 @@ namespace BaltaDataAccess
                 // CreateCategory(connection);
                 // UpdateCategory(connection);
                 // DeleteCategory(connection);
-                // ListCategories(connection);
-                GetCategory(connection);
+                ListCategories(connection);
+                // GetCategory(connection);
 
             }
         }

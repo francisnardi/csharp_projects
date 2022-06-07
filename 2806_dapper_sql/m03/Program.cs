@@ -21,7 +21,7 @@ namespace BaltaDataAccess
                 // CreateManyCategory(connection);
                 // UpdateCategory(connection);
                 // DeleteCategory(connection);
-                // ListCategories(connection);
+                ListCategories(connection);
                 // GetCategory(connection);
                 // ExecuteProcedure(connection);
                 // ExecuteReadProcedure(connection);
