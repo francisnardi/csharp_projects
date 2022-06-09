@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Azure.Core/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -38,7 +38,7 @@
           "lib/netstandard2.0/Azure.Identity.dll": {}
         }
       },
-      "Dapper/2.0.123": {
+      "Dapper/2.0.90": {
         "type": "package",
         "compile": {
           "lib/net5.0/Dapper.dll": {}
@@ -548,15 +548,15 @@
         "pkgicon.png"
       ]
     },
-    "Dapper/2.0.123": {
-      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+    "Dapper/2.0.90": {
+      "sha512": "e4YjOLJptnpwHIbP8HxjaYf7So9lhUC43rvvGMEkH4Q4CiVlm4rOxYDo0HyuHlMQKj0U5Ob/nCMm52TUhTaZQg==",
       "type": "package",
-      "path": "dapper/2.0.123",
+      "path": "dapper/2.0.90",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Dapper.png",
-        "dapper.2.0.123.nupkg.sha512",
+        "dapper.2.0.90.nupkg.sha512",
         "dapper.nuspec",
         "lib/net461/Dapper.dll",
         "lib/net461/Dapper.xml",
@@ -1620,8 +1620,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Dapper >= 2.0.123",
+    "net5.0": [
+      "Dapper >= 2.0.90",
       "Dapper.Contrib >= 2.0.78",
       "Microsoft.Data.SqlClient >= 3.0.0"
     ]
@@ -1632,26 +1632,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\Blog.csproj",
+      "projectUniqueName": "c:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "C:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\Blog.csproj",
+      "projectPath": "c:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\Blog.csproj",
       "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\obj\\",
+      "outputPath": "c:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -1662,12 +1662,12 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Dapper": {
             "target": "Package",
-            "version": "[2.0.123, )"
+            "version": "[2.0.90, )"
           },
           "Dapper.Contrib": {
             "target": "Package",

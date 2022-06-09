@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DeFd0XP7VapBcqXNkMYK4wtqS4b5yTOf8RBBhqDbu9ZqsMxBwWVAV9PRZPZcOEFGbbWmaiYZKJCo0xN5C0cJEw==",
+  "dgSpecHash": "a4fQr56bywNlM8+UTRMG5xiQlKGaTeVbLby2Pmjuik/1beiJu9I60PXYtp/ho0Opg50ztdY2Iws8EVUv8sIgaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\Blog.csproj",
+  "projectFilePath": "c:\\Users\\Fran\\Desktop\\training_balta\\2806_dapper_sql\\m04\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fran\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
-    "C:\\Users\\Fran\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Fran\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\Fran\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
