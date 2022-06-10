@@ -19,7 +19,7 @@ namespace Blog
                 var users = connection.GetAll<User>();
                 foreach (var user in users)
                 {
-                    Console.WriteLine(user.Name, user.Id, user.Slug);
+                    Console.WriteLine(user.Name);
                 }
             }
         }
