@@ -13,8 +13,9 @@ namespace Blog.Screens.CategoriaScreens
             Console.WriteLine();
             Console.WriteLine("1 - Listar categorias");
             Console.WriteLine("2 - Cadastrar categorias");
-            Console.WriteLine("3 - Atualizar tag");
-            Console.WriteLine("4 - Excluir tag");
+            Console.WriteLine("3 - Atualizar categoria");
+            Console.WriteLine("4 - Excluir categoria");
+            Console.WriteLine("0 - Retornar ao menu anterior");
             Console.WriteLine();
             Console.WriteLine();
             var option = short.Parse(Console.ReadLine());
@@ -33,7 +34,7 @@ namespace Blog.Screens.CategoriaScreens
                 case 4:
                     DeleteCategoriaScreen.Load();
                     break;
-                default: Load(); break;
+                default: Program.Load(); break;
             }
         }
     }

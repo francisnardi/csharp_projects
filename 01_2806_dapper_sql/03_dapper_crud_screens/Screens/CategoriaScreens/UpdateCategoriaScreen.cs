@@ -40,7 +40,7 @@ namespace Blog.Screens.CategoriaScreens
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Não foi possível atualizar a tag");
+                Console.WriteLine("Não foi possível atualizar a categoria");
                 Console.WriteLine(ex.Message);
             }
         }

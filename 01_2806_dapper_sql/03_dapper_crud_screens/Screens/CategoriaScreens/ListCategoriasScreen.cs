@@ -13,7 +13,7 @@ namespace Blog.Screens.CategoriaScreens
             Console.WriteLine("-------------");
             List();
             Console.ReadKey();
-            //MenuCategoriaScreen.Load();
+            MenuCategoriaScreen.Load();
         }
 
         private static void List()

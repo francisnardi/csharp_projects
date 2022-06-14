@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/fjn/Desktop/csharp_learning/01_2806_dapper_sql/03_dapper_crud_screens/Blog.csproj": {}
+    "C:\\Users\\Fran\\Desktop\\csharp_learning\\01_2806_dapper_sql\\03_dapper_crud_screens\\Blog.csproj": {}
   },
   "projects": {
-    "/home/fjn/Desktop/csharp_learning/01_2806_dapper_sql/03_dapper_crud_screens/Blog.csproj": {
+    "C:\\Users\\Fran\\Desktop\\csharp_learning\\01_2806_dapper_sql\\03_dapper_crud_screens\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fjn/Desktop/csharp_learning/01_2806_dapper_sql/03_dapper_crud_screens/Blog.csproj",
+        "projectUniqueName": "C:\\Users\\Fran\\Desktop\\csharp_learning\\01_2806_dapper_sql\\03_dapper_crud_screens\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "/home/fjn/Desktop/csharp_learning/01_2806_dapper_sql/03_dapper_crud_screens/Blog.csproj",
-        "packagesPath": "/home/fjn/.nuget/packages/",
-        "outputPath": "/home/fjn/Desktop/csharp_learning/01_2806_dapper_sql/03_dapper_crud_screens/obj/",
+        "projectPath": "C:\\Users\\Fran\\Desktop\\csharp_learning\\01_2806_dapper_sql\\03_dapper_crud_screens\\Blog.csproj",
+        "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fran\\Desktop\\csharp_learning\\01_2806_dapper_sql\\03_dapper_crud_screens\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fjn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Fran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

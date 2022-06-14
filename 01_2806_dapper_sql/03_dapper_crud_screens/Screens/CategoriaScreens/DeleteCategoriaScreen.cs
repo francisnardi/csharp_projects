@@ -16,7 +16,7 @@ namespace Blog.Screens.CategoriaScreens
 
             Delete(int.Parse(id));
             Console.ReadKey();
-            //MenuCategoriaScreen.Load();
+            MenuCategoriaScreen.Load();
         }
 
         public static void Delete(int id)

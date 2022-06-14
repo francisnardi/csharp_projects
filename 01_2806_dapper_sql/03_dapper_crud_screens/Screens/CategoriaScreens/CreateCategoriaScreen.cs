@@ -23,7 +23,7 @@ namespace Blog.Screens.CategoriaScreens
                 Slug = slug
             });
             Console.ReadKey();
-            //MenuCategoriaScreen.Load();
+            MenuCategoriaScreen.Load();
         }
 
         public static void Create(Category categoria)
