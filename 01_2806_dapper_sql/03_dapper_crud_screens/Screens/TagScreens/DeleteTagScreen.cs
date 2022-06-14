@@ -11,7 +11,7 @@ namespace Blog.Screens.TagScreens
             Console.Clear();
             Console.WriteLine("Excluir uma tag");
             Console.WriteLine("-------------");
-            Console.Write("Qual o id da Tag que deseja exluir? ");
+            Console.Write("Qual o id da tag que deseja exluir? ");
             var id = Console.ReadLine();
 
             Delete(int.Parse(id));

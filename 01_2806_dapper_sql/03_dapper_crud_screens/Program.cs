@@ -39,9 +39,28 @@ namespace Blog
 
             switch (option)
             {
+                // case 1:
+                //     MenuTagScreen.Load();
+                //     break;
+                // case 2:
+                //     MenuTagScreen.Load();
+                //     break;
+                // case 3:
+                //     MenuCategoriaScreen.Load();
+                //     break;
                 case 4:
                     MenuTagScreen.Load();
                     break;
+                // case 5:
+                //     MenuTagScreen.Load();
+                //     break;              
+                // case 6:
+                //     MenuTagScreen.Load();
+                //     break;
+                // case 7:
+                //     MenuTagScreen.Load();
+                //     break;
+
                 default: Load(); break;
             }
         }
