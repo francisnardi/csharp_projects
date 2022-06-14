@@ -1,5 +1,6 @@
 ﻿using System;
 using Blog.Screens.CategoriaScreens;
+using Blog.Screens.PostScreens;
 using Blog.Screens.TagScreens;
 using Microsoft.Data.SqlClient;
 
@@ -27,12 +28,13 @@ namespace Blog
             Console.WriteLine("-----------------");
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine();
-            Console.WriteLine("1 - Gestão de usuário");
-            Console.WriteLine("2 - Gestão de perfil");
-            Console.WriteLine("3 - Gestão de categoria");
-            Console.WriteLine("4 - Gestão de tag");
-            Console.WriteLine("5 - Vincular perfil/usuário");
-            Console.WriteLine("6 - Vincular post/tag");
+            Console.WriteLine("0 - Gestão de posts");
+            Console.WriteLine("1 - Gestão de usuários");
+            Console.WriteLine("2 - Gestão de perfis");
+            Console.WriteLine("3 - Gestão de categorias");
+            Console.WriteLine("4 - Gestão de tags");
+            Console.WriteLine("5 - Vincular perfis/usuários");
+            Console.WriteLine("6 - Vincular posts/tags");
             Console.WriteLine("7 - Relatórios");
             Console.WriteLine();
             Console.WriteLine();
@@ -40,6 +42,9 @@ namespace Blog
 
             switch (option)
             {
+                case 0:
+                    MenuPostScreen.Load();
+                    break;
                 // case 1:
                 //     MenuTagScreen.Load();
                 //     break;

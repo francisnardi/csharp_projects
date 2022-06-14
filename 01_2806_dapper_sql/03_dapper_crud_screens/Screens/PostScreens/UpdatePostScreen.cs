@@ -12,15 +12,33 @@ namespace Blog.Screens.PostScreens
             Console.WriteLine("Atualizando um post");
             Console.WriteLine("-------------");
             Console.Write("Id: ");
-            var id = Console.ReadLine();
+            var id = int.Parse(Console.ReadLine());
 
-            Console.Write("Nome: ");
-            var name = Console.ReadLine();
+            Console.Write("Título: ");
+            var title = Console.ReadLine();
+            Console.Write("Categoria: ");
+            var category = int.Parse(Console.ReadLine());
+            Console.Write("Autor: ");
+            var author = int.Parse(Console.ReadLine());
+            Console.Write("Resumo: ");
+            var summary = Console.ReadLine();
+            Console.Write("Texto: ");
+            var body = Console.ReadLine();
+            Console.Write("Slug: ");
+            var slug = Console.ReadLine();
+
+            var dataAtualizacao = DateTime.Now;
 
             Update(new Post
             {
-                Id = int.Parse(id),
-                Name = name
+                Id = id,
+                Title = title,
+                CategoryId = category,
+                AuthorId = author,
+                Summary = summary,
+                Body = body,
+                Slug = slug,
+                LastUpdateDate = dataAtualizacao
             });
             Console.ReadKey();
             MenuPostScreen.Load();
