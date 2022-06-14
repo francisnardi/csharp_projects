@@ -7,14 +7,14 @@ namespace Blog.Screens.PostScreens
         public static void Load()
         {
             Console.Clear();
-            Console.WriteLine("Gestão de categorias");
+            Console.WriteLine("Gestão de posts");
             Console.WriteLine("--------------");
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine();
-            Console.WriteLine("1 - Listar categorias");
-            Console.WriteLine("2 - Cadastrar categorias");
-            Console.WriteLine("3 - Atualizar categoria");
-            Console.WriteLine("4 - Excluir categoria");
+            Console.WriteLine("1 - Listar posts");
+            Console.WriteLine("2 - Cadastrar posts");
+            Console.WriteLine("3 - Atualizar post");
+            Console.WriteLine("4 - Excluir post");
             Console.WriteLine("0 - Retornar ao menu anterior");
             Console.WriteLine();
             Console.WriteLine();

@@ -27,7 +27,13 @@ namespace Blog.Screens.PostScreens
             Console.Write("Slug: ");
             var slug = Console.ReadLine();
 
+            var repository = new Repository<Post>(Database.Connection);
+            var editPost = repository.Get(id);
             var dataAtualizacao = DateTime.Now;
+
+            System.Console.WriteLine(editPost);
+            System.Console.WriteLine(editPost.CreateDate);
+            System.Console.WriteLine(dataAtualizacao);
 
             Update(new Post
             {
@@ -38,6 +44,7 @@ namespace Blog.Screens.PostScreens
                 Summary = summary,
                 Body = body,
                 Slug = slug,
+                CreateDate = editPost.CreateDate,
                 LastUpdateDate = dataAtualizacao
             });
             Console.ReadKey();

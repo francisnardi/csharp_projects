@@ -21,7 +21,7 @@ namespace Blog.Screens.PostScreens
             var repository = new Repository<Post>(Database.Connection);
             var posts = repository.Get();
             foreach (var item in posts)
-                Console.WriteLine($"{item.Id} - {item.Title} - {item.LastUpdateDate}");
+                Console.WriteLine($"{item.Id} - {item.Title} - {item.LastUpdateDate.ToString("dd/MM/yyyy - HH:mm:ss")}");
         }
     }
 }
