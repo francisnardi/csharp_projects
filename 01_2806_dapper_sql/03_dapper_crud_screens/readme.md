@@ -6,8 +6,8 @@ DESAFIO
     3. Post
 
 2. Vincular:
-    1. Usuário a um Perfil
-    2. Post a uma Tag
+    1. Usuário a um perfil
+    2. Post a uma tag
 
 3. Listar:
    1. Os usuários separados por vírgula
