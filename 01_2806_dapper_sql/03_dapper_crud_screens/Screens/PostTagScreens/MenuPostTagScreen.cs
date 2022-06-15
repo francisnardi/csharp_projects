@@ -1,20 +1,18 @@
-using System;
+﻿using System;
 
-namespace Blog.Screens.PostScreens
+namespace Blog.Screens.PostTagScreens
 {
-    public static class MenuPostScreen
+    public static class MenuPostTagScreen
     {
         public static void Load()
         {
             Console.Clear();
-            Console.WriteLine("Gestão de posts");
+            Console.WriteLine("Gestão de posts/tags");
             Console.WriteLine("--------------");
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine();
-            Console.WriteLine("1 - Listar posts");
-            Console.WriteLine("2 - Cadastrar posts");
-            Console.WriteLine("3 - Atualizar post");
-            Console.WriteLine("4 - Excluir post");
+            Console.WriteLine("1 - Listar posts/tags");
+            Console.WriteLine("2 - Vincular posts/tags");
             Console.WriteLine("0 - Retornar ao menu anterior");
             Console.WriteLine();
             Console.WriteLine();
@@ -23,16 +21,10 @@ namespace Blog.Screens.PostScreens
             switch (option)
             {
                 case 1:
-                    ListPostsScreen.Load();
+                    ListPostTagScreen.Load();
                     break;
                 case 2:
-                    CreatePostScreen.Load();
-                    break;
-                case 3:
-                    UpdatePostScreen.Load();
-                    break;
-                case 4:
-                    DeletePostScreen.Load();
+                    CreatePostTagScreen.Load();
                     break;
                 case 0:
                     Program.Load();

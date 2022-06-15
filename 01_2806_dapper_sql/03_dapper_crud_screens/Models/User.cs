@@ -8,7 +8,6 @@ namespace Blog.Models
     {
         public User()
             => Roles = new List<Role>();
-
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }

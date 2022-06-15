@@ -7,6 +7,9 @@ namespace Blog.Models
     [Table("[Post]")]
     public class Post
     {
+        public Post()
+            => Tags = new List<Tag>();
+
         public int Id { get; set; }
 
         public int CategoryId { get; set; }
@@ -24,5 +27,8 @@ namespace Blog.Models
         public DateTime CreateDate { get; set; }
 
         public DateTime LastUpdateDate { get; set; }
+
+        [Write(false)]
+        public List<Tag> Tags { get; set; }
     }
 }

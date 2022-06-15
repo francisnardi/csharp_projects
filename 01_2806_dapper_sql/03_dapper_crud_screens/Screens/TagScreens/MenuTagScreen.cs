@@ -34,7 +34,12 @@ namespace Blog.Screens.TagScreens
                 case 4:
                     DeleteTagScreen.Load();
                     break;
-                default: Program.Load(); break;
+                case 0:
+                    Program.Load(); 
+                    break;
+                default: 
+                    Program.Load(); 
+                    break;
             }
         }
     }

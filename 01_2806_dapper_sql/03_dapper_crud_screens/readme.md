@@ -13,6 +13,6 @@ DESAFIO
    1. Os usuários separados por vírgula
    2. As categorias com quantidades de posts
    3. As tags com quantidades de posts
-   4. Os posts de sua categoria 
+   4. Os posts de sua categoria
    5. Todos os posts com sua categoria
    6. Todos os posts com suas tags (separadas por vírgula)

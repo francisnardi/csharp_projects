@@ -1,20 +1,18 @@
-using System;
+﻿using System;
 
-namespace Blog.Screens.PostScreens
+namespace Blog.Screens.UserRoleScreens
 {
-    public static class MenuPostScreen
+    public static class MenuUserRoleScreen
     {
         public static void Load()
         {
             Console.Clear();
-            Console.WriteLine("Gestão de posts");
+            Console.WriteLine("Gestão de usuários/perfis");
             Console.WriteLine("--------------");
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine();
-            Console.WriteLine("1 - Listar posts");
-            Console.WriteLine("2 - Cadastrar posts");
-            Console.WriteLine("3 - Atualizar post");
-            Console.WriteLine("4 - Excluir post");
+            Console.WriteLine("1 - Listar usuários/perfis");
+            Console.WriteLine("2 - Vincular usuários/perfis");
             Console.WriteLine("0 - Retornar ao menu anterior");
             Console.WriteLine();
             Console.WriteLine();
@@ -23,16 +21,10 @@ namespace Blog.Screens.PostScreens
             switch (option)
             {
                 case 1:
-                    ListPostsScreen.Load();
+                    ListUserRoleScreen.Load();
                     break;
                 case 2:
-                    CreatePostScreen.Load();
-                    break;
-                case 3:
-                    UpdatePostScreen.Load();
-                    break;
-                case 4:
-                    DeletePostScreen.Load();
+                    CreateUserRoleScreen.Load();
                     break;
                 case 0:
                     Program.Load();

@@ -34,7 +34,12 @@ namespace Blog.Screens.CategoriaScreens
                 case 4:
                     DeleteCategoriaScreen.Load();
                     break;
-                default: Program.Load(); break;
+                case 0:
+                    Program.Load();
+                    break;
+                default:
+                    Program.Load();
+                    break;
             }
         }
     }
