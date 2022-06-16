@@ -19,7 +19,7 @@ namespace Blog
             // DeleteUser(repository);
             // ReadUser(repository);
             // ReadUsers(repository);
-            // ReadWithRoles(connection);
+            ReadWithRoles(connection);
         }
 
         private static void CreateUser(Repository<User> repository)
