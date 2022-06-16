@@ -14,9 +14,6 @@ namespace Blog.Screens.ReportScreens
             Console.WriteLine("1 - Os usuários separados por vírgula");
             Console.WriteLine("2 - As categorias com quantidades de posts");
             Console.WriteLine("3 - As tags com quantidades de posts");
-            Console.WriteLine("4 - Os posts de sua categoria");
-            Console.WriteLine("5 - Todos os posts com sua categoria");
-            Console.WriteLine("6 - Todos os posts com suas tags");
             Console.WriteLine("0 - Retornar ao menu anterior");
             Console.WriteLine();
             Console.WriteLine();
