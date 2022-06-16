@@ -1,5 +1,4 @@
-﻿using Blog.Models;
-using Blog.Repositories;
+﻿using Blog.Repositories;
 using System;
 
 namespace Blog.Screens.PostTagScreens

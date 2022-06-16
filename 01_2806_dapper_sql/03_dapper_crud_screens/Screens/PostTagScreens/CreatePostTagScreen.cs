@@ -48,13 +48,13 @@ namespace Blog.Screens.PostTagScreens
             var postTagRepository = new Repository<PostTag>(Database.Connection);
             postTagRepository.Create(new PostTag
             {
-                PostId = idPost,
+                Id = idPost,
                 TagId = idTag
             });
 
             Console.WriteLine("Post: {0}\nTag: {1}", postRepository.Get(idPost).Title, tagRepository.Get(idTag).Name);
             Console.ReadLine();
-            Program.Load();
+            MenuPostTagScreen.Load();
         }
     }
 }

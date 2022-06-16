@@ -54,7 +54,7 @@ namespace Blog.Screens.UserRoleScreens
 
             Console.WriteLine("Usuário: {0}\nPerfil: {1}", userRepository.Get(idUser).Name, roleRepository.Get(idRole).Name);
             Console.ReadLine();
-            Program.Load();
+            MenuUserRoleScreen.Load();
         }
     }
 }

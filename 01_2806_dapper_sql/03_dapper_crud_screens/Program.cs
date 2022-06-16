@@ -4,6 +4,7 @@ using Blog.Screens.PostScreens;
 using Blog.Screens.TagScreens;
 using Blog.Screens.UserRoleScreens;
 using Blog.Screens.PostTagScreens;
+using Blog.Screens.ReportScreens;
 using Microsoft.Data.SqlClient;
 
 namespace Blog
@@ -57,11 +58,12 @@ namespace Blog
                 case 5:
                     MenuPostTagScreen.Load();
                     break;
-                // case 6:
-                //     MenuTagScreen.Load();
-                //     break;
-
-                default: Load(); break;
+                case 6:
+                    MenuReportScreen.Load();
+                    break;
+                default: 
+                    Load(); 
+                    break;
             }
         }
     }
