@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fran\\Desktop\\csharp_learning\\02_2808_ef_sql\\01_simple_ef_crud\\Blog.csproj": {}
+    "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/01_simple_ef_crud/Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fran\\Desktop\\csharp_learning\\02_2808_ef_sql\\01_simple_ef_crud\\Blog.csproj": {
+    "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/01_simple_ef_crud/Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fran\\Desktop\\csharp_learning\\02_2808_ef_sql\\01_simple_ef_crud\\Blog.csproj",
+        "projectUniqueName": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/01_simple_ef_crud/Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\Users\\Fran\\Desktop\\csharp_learning\\02_2808_ef_sql\\01_simple_ef_crud\\Blog.csproj",
-        "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fran\\Desktop\\csharp_learning\\02_2808_ef_sql\\01_simple_ef_crud\\obj\\",
+        "projectPath": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/01_simple_ef_crud/Blog.csproj",
+        "packagesPath": "/home/fjn/.nuget/packages/",
+        "outputPath": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/01_simple_ef_crud/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/fjn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
