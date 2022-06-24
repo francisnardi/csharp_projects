@@ -5766,11 +5766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/02_fluent_ef_crud/Blog.csproj",
+      "projectUniqueName": "/home/fjn/Desktop/csharp_projects/02_2808_ef_sql/02_fluent_ef_crud/Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/02_fluent_ef_crud/Blog.csproj",
+      "projectPath": "/home/fjn/Desktop/csharp_projects/02_2808_ef_sql/02_fluent_ef_crud/Blog.csproj",
       "packagesPath": "/home/fjn/.nuget/packages/",
-      "outputPath": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/02_fluent_ef_crud/obj/",
+      "outputPath": "/home/fjn/Desktop/csharp_projects/02_2808_ef_sql/02_fluent_ef_crud/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fjn/.nuget/NuGet/NuGet.Config"

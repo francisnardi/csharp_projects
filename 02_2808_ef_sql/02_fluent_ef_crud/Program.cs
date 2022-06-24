@@ -38,18 +38,18 @@ namespace Blog
             // context.Posts.Add(post); // Não adicionei autor nem categoria
             // context.SaveChanges();
 
-            var posts = context
-                .Posts
-                .AsNoTracking()
-                .Include(x => x.Author)
-                .Include(x => x.Category)
-                .OrderBy(x => x.LastUpdateDate)
-                .ToList();
+            // var posts = context
+            //     .Posts
+            //     .AsNoTracking()
+            //     .Include(x => x.Author)
+            //     .Include(x => x.Category)
+            //     .OrderBy(x => x.LastUpdateDate)
+            //     .ToList();
             
-            foreach (var post in posts) 
-                Console.WriteLine($"{post.Title} por {post.Author.Name} em {post.Category.Name}");
+            // foreach (var post in posts) 
+            //     Console.WriteLine($"{post.Title} por {post.Author.Name} em {post.Category.Name}");
             
-            // var post = context
+            // // var post = context
             //     .Posts
             //     // .AsNoTracking() PRECISA DO TRACKING 
             //     .Include(x => x.Author)

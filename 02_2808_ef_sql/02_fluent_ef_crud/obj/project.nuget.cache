@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lt8oXbgv559jNKlkQhZ1Gpq8e4vQQxtt8v35wKsZPh8t3b53m34GUnhVzP1+9OmbfdKiKGQqDoox7PJ5xGl1Gg==",
+  "dgSpecHash": "q6gh/aIXfMmI0mYf8yIKWJLQB+wn30OxqC2xlnL5so+t4sZYXkWNdOEewU7V/Qv6nWnMJwbq5GJH34SWK4nK4A==",
   "success": true,
-  "projectFilePath": "/home/fjn/Desktop/csharp_learning/02_2808_ef_sql/02_fluent_ef_crud/Blog.csproj",
+  "projectFilePath": "/home/fjn/Desktop/csharp_projects/02_2808_ef_sql/02_fluent_ef_crud/Blog.csproj",
   "expectedPackageFiles": [
     "/home/fjn/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/fjn/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
