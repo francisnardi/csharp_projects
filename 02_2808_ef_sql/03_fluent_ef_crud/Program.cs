@@ -13,10 +13,10 @@ namespace Blog
         {
             using var context = new BlogDataContext();
 
-            var posts = context.Posts.ToListAsync();
-            var users = context.Users.ToListAsync();
-            // var posts = await context.Posts.ToListAsync();
-            // var users = await context.Users.ToListAsync();
+            // var posts = context.Posts.ToListAsync();
+            // var users = context.Users.ToListAsync();
+            var posts = await context.Posts.ToListAsync();
+            var users = await context.Users.ToListAsync();
             Console.WriteLine("posts");
             Console.WriteLine("users");
         }
