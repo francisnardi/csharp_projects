@@ -46,6 +46,7 @@ namespace Todo.Controllers
 
             model.Title = todo.Title;
             model.Done = todo.Done;
+            model.CreatedAt = todo.CreatedAt;
 
             context.Todos.Update(model);
             context.SaveChanges();
