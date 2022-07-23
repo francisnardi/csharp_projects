@@ -10,4 +10,6 @@ public class RegisterViewModel
     [Required(ErrorMessage = "O E-mail é obrigatório")]
     [EmailAddress(ErrorMessage = "O E-mail é inválido")]
     public string Email { get; set; }
+    public string Bio { get; set; }
+    public string Image { get; set; }
 }

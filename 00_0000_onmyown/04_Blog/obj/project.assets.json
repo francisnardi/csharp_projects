@@ -5985,24 +5985,26 @@
     ]
   },
   "packageFolders": {
-    "/home/fjn/.nuget/packages/": {}
+    "C:\\Users\\Fran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fjn/Desktop/csharp_projects/00_0000_onmyown/04_Blog/Blog.csproj",
+      "projectUniqueName": "C:\\Users\\Fran\\Desktop\\csharp_projects\\00_0000_onmyown\\04_Blog\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "/home/fjn/Desktop/csharp_projects/00_0000_onmyown/04_Blog/Blog.csproj",
-      "packagesPath": "/home/fjn/.nuget/packages/",
-      "outputPath": "/home/fjn/Desktop/csharp_projects/00_0000_onmyown/04_Blog/obj/",
+      "projectPath": "C:\\Users\\Fran\\Desktop\\csharp_projects\\00_0000_onmyown\\04_Blog\\Blog.csproj",
+      "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fran\\Desktop\\csharp_projects\\00_0000_onmyown\\04_Blog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/fjn/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Fran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6062,7 +6064,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

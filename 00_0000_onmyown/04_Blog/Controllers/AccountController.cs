@@ -24,6 +24,8 @@ public class AccountController : ControllerBase
         {
             Name = model.Name,
             Email = model.Email,
+            Bio = model.Bio,
+            Image = model.Image,
             Slug = model.Email.Replace("@", "-").Replace(".", "-")
         };
 
